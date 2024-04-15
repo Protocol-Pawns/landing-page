@@ -65,7 +65,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <script defer data-domain="protocol-pawns.com" src="https://plausible.io/js/script.js"></script>
+      </head>
       <body className={`${inter.className} bg-black`}>
         <div className="w-full h-20 flex items-center">
           <Navbar />
